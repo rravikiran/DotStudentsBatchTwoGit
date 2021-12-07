@@ -13,6 +13,7 @@ import org.testng.annotations.AfterSuite;
 public class DifferentAnnotations {
   @Test
   public void f() {
+	  System.out.println("Test");
   }
   @BeforeMethod
   public void beforeMethod() {
